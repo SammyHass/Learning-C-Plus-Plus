@@ -2,15 +2,8 @@
 #include <string>
 using namespace std;
 
-int add (int a, int b) {
-    int r;
-    r = a + b;
-    return r; 
-}
-
-void print(string printable) {
-    cout << printable << endl;
-}
+int add(int a, int b);
+void print(string printable);
 
 int main () {
     int a;
@@ -22,3 +15,15 @@ int main () {
     cout << "Adding those numbers gives " << add(a, b) << endl;
     print("Hello World!");
 }
+
+
+int add (int a, int b) {
+    int r;
+    r = a + b;
+    return r; 
+}
+
+void print(string printable) {
+    cout << printable << endl;
+}
+
